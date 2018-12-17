@@ -55,6 +55,7 @@ This means it thinks "appliacation" is a typo of "application" and both "lst" an
 
 Once you press Enter, Typocheck will carry out the replacements according to its amended plan.
 
-## Configuration
+Configuration
+=============
 
 Typocheck is highly configurable. You can customize things like where it draws word boundaries, or how similar is "similar" for the purpose of deciding whether a word might be a typo of another word. As well as passing options on the command line, you can write a file called "typocheck-settings.py" in the current directory.
