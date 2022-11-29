@@ -2,6 +2,8 @@
 Typocheck
 =========
 
+**WARNING: This README is a lie.** This is a project that I never finished or really started in earnest, even. The README is not a description, but a plan, and a plan that will most likely never be implemented. **End warning**
+
 Command-line utility for quickly typo-checking a large number of files in a manner that minimizes false positives and deals nicely with novel spellings.
 
 Unlike a typical spellchecker, Typocheck doesn't rely on having a predefined dictionary of correctly spelled words (although having one does help). When Typocheck encounters a word it can't find in the dictionary, it checks whether there is a similar word in the dictionary already. If there is, Typocheck assumes the least frequently-occurring of the two words is a typo of the other. Otherwise, it adds the word to the dictionary. The idea is that if an unfamiliar word is a minor alteration of a familiar word that occurs few times, then it's probably a typo, while if an unfamiliar word is spelled consistently across multiple occurrences, it's probably not a typo.
